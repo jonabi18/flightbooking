@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FlightRegistration</title>
+</head>
+<body>
+<form action="ControllerServlet">
+  Price: <input type="number" name="price"><br>
+ Company:
+<select name="company">
+  <option value="SAS">Sas</option>
+  <option value="KLM">KLM</option>
+  <option value="Ryanair">Ryanair</option>
+  <option value="Delta">Delta</option>
+  <option value="Air France">Air France</option>
+  <option value="Norwegian">Norwegian</option>
+</select><br>
+Departure date:
+Year:
+<select name="year">
+  <option value="2019">2019</option>
+  <option value="2020">2020</option>
+  <option value="2021">2021</option>
+  <option value="2022">2022</option>
+  <option value="2023">2023</option>
+  <option value="2024">2024</option>
+</select>
+<select name="month">
+  <option value="01">January</option>
+  <option value="02">February</option>
+  <option value="03">March</option>
+  <option value="04">April</option>
+  <option value="05">May</option>
+  <option value="06">June</option>
+  <option value="07">July</option>
+  <option value="08">August</option>
+  <option value="09">September</option>
+  <option value="10">October</option>
+  <option value="11">November</option>
+  <option value="12">December</option>
+
+</select>
+<select name="day">
+  <option value="01">01</option>
+  <option value="02">02</option>
+  <option value="03">03</option>
+  <option value="04">04</option>
+  <option value="05">05</option>
+  <option value="06">06</option>
+  <option value="07">07</option>
+  <option value="08">08</option>
+  <option value="09">09</option>
+  <option value="10">10</option>
+  <option value="11">11</option>
+  <option value="12">12</option>
+  <option value="13">13</option>
+  <option value="14">14</option>
+  <option value="15">15</option>
+  <option value="16">16</option>
+  <option value="17">17</option>
+  <option value="18">18</option>
+  <option value="19">19</option>
+  <option value="20">20</option>
+  <option value="21">21</option>
+  <option value="22">22</option>
+  <option value="23">23</option>
+  <option value="24">24</option>
+  <option value="25">25</option>
+  <option value="26">26</option>
+  <option value="27">27</option>
+  <option value="28">28</option>
+  <option value="29">29</option>
+  <option value="30">30</option>
+  <option value="31">31</option>
+</select><br>
+
+ Departure country:
+<select name="from">
+  <option value="France">France</option>
+  <option value="USA">USA</option>
+  <option value="Germany">Germany</option>
+  <option value="India">India</option>
+</select><br>
+Arrival country:
+<select name="to">
+  <option value="Norway">Norway</option>
+  <option value="England">England</option>
+  <option value="Italy">Italy</option>
+  <option value="Sweden">Sweden</option>
+</select><br>
+Class:
+<select name="class">
+  <option value="true">Business</option>
+  <option value="false">Economy</option>
+</select><br>
+Duration:
+ <input type="text" name="duration"><br>
+ Seat amount:
+ <select name="seats">
+  <option value="50">50</option>
+  <option value="75">75</option>
+  <option value="100">100</option>
+  <option value="200">200</option>
+</select><br>
+Airplane type:
+<select name="airplaneType">
+  <option value="Air Canada Boeing 787-9">Air Canada Boeing 787-9</option>
+  <option value="Airbus A380 House Livery">Airbus A380 House Livery</option>
+  <option value="Alaska Airlines Boeing 737-700">Alaska Airlines Boeing 737-700</option>
+  <option value="Alaska/Horizon Q400">Alaska/Horizon Q400</option>
+</select><br>
+Gate:
+ <input type="text" name="gate" maxlength=5><br>
+ Baggage allowed:
+ <select name="baggage">
+  <option value="true">Yes</option>
+  <option value="false">No</option>
+</select><br>
+ <input type="hidden" name="command" value="NEWFLIGHT">
+ <input type="submit" value="Submit">
+</form>
+
+
+
+
+
+</body>
+</html>
