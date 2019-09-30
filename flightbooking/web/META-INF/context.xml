@@ -1,9 +1,9 @@
 <Context>
 
-    <Resource name="jdbc/Flybooking2"
+    <Resource name="jdbc/flightbooking"
               auth="Container" type="javax.sql.DataSource"
               maxActive="20" maxIdle="5" maxWait="10000"
               username="root" driverClassName="com.mysql.jdbc.Driver"
-              url="jdbc:mysql://localhost:3306/flybooking?useSSL=false&amp;serverTimezone=UTC" password="abc"/>
+              url="jdbc:mysql://localhost:3306/flightbooking?useSSL=false&amp;serverTimezone=UTC" password="abc"/>
 
 </Context>

@@ -143,8 +143,8 @@ import java.util.List;
 
             request.setAttribute("FLIGHTS", recentFlights);
 
-            //response.sendRedirect(request.getContextPath() + "/index.jsp");
-            RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+            //response.sendRedirect(request.getContextPath() + "/index.html");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/index.html");
             dispatcher.forward(request, response);
         }
 
@@ -153,7 +153,7 @@ import java.util.List;
 
             //request.setAttribute("#", pnr);
 
-            RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/index.html");
             dispatcher.forward(request, response);
         }
 
@@ -177,8 +177,8 @@ import java.util.List;
 
 
             //remove below if wrong
-            //response.sendRedirect(request.getContextPath() + "/index.jsp");
-            //RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+            //response.sendRedirect(request.getContextPath() + "/index.html");
+            //RequestDispatcher dispatcher = request.getRequestDispatcher("/index.html");
             //dispatcher.forward(request, response);
         }
         private void filter(HttpServletRequest request, HttpServletResponse response) throws Exception {
@@ -201,8 +201,8 @@ import java.util.List;
             }
             request.setAttribute("FLIGHTS", flights);
 
-            //response.sendRedirect(request.getContextPath() + "/index.jsp");
-            RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+            //response.sendRedirect(request.getContextPath() + "/index.html");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/index.html");
             dispatcher.forward(request, response);
 
         }
