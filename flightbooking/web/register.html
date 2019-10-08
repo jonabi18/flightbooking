@@ -2,27 +2,31 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title> Registration </title>
 </head>
 <body>
 
 
 <form action="ControllerServlet">
-  Full Name:<br>
-  <input type="text" name="name"><br>
- <input type="radio" name="gender" value="male"> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  Email: <br>
-  <input type="text" name="email">
-  <input type="hidden" name="command" value="REGISTER"/>
-	<input type="submit" value="Register"/>
-    <form action="register.java">
+  Fornavn:<br>
+    <   input type="text" name="first_name"><br>
+    Etternavn <br>
+        <input type="text" name="last_name"><br>
+    Adresse <br>
+        <input type="text" name="customer_address"><br>
+    Epost Adresse: <br>
+        <input type="text" name="email"><br>
+    Mobilnummer <br>
+        <input type="number" name="phone"><br>
+    Gender <br>
+        <input type="radio" name="gender" value="male"> Mann<br>
+        <input type="radio" name="gender" value="female"> Kvinne<br>
+        <input type="radio" name="gender" value="others"> Annet<br>
 
+    <form action="register.java">
+        <button> Registrer </button>
     </form>
 
 </form>
-
-
-
 </body>
 </html>
